@@ -24,8 +24,8 @@ header {
 img {
     height: 50px;
     width: 50px;
-  /* padding: 7px 7px; */
-  display: contents;
+  /* padding: 7px 7px; 
+  display: contents; */
 }
 
 .title {
