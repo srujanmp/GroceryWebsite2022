@@ -1,55 +1,68 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:20px;
 }
-
 html {
-  background-color: #b8e3ff;
-  /* border: 2px solid #62b0b7; */
+    background-color: rgb(233, 91, 91);
 }
 
-body {
-  border: 4px solid #82c9cf;
-  width: fit-content;
-  height: max-content;
+#header {
+    background-color: grey;
+    border: 3px solid black;
+    text-align: center;
 }
-
-header {
-  border: 4px solid #82c9cf;
-  background-color: #62b0b7;
-  /* height: 50px; */
+.headerelement{
+    display: inline;
+    vertical-align: bottom;
 }
-
-img {
-    height: 50px;
-    width: 50px;
-  /* padding: 7px 7px; 
-  display: contents; */
+#headerimage {
+    height:40px;
+    width:40px;
+    display: inline;
 }
-
-.title {
-  font: 50px consolas;
-  color: #16368f;
-  font-weight: bold;
-  padding-left: 15px;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
+#headertitle {
+    display: inline;
+    font-family:Ubuntu;
+    font-size: 28px;
+    font-weight:bold;
+    color: white;
+    padding: 0px 40px 0px 40px;
 }
-h1 {
-  padding-left: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font: 25px consolas;
-  color: #16368f;
-  font-weight: bold;
+#headertitle:hover {
+    color: aquamarine;
 }
-/* text written inside body */
-.text {
-  color: #3868ec;
-  font-family: "Ubuntu";
-  /* font-weight: bold; */
-  padding-left: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+#headernav li {
+    display: inline;
+    font-family:Ubuntu;
+    font-size: 23px;
+    padding: 2px 7px 2px 7px;
+}
+.nav {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav:hover{
+    color: chartreuse;
+}
+.login {
+    height: 30px;
+    width: 70px;
+    margin: 0 0 0 5px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    font-family: Ubuntu;
+}
+.login:hover{
+    color: chartreuse;
+    background-color: rgb(29, 27, 27);
+}
+.para {
+    font-family: consolas;
+    color:rgb(255, 213, 213);
+    padding: 30px 20px 0px 20px;
 }
