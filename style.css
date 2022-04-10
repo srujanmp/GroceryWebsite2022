@@ -33,7 +33,7 @@ nav {
   vertical-align: middle;
 }
 .left img {
-  height:100px;
+  height: 60px;
 }
 .left {
   color: rgb(0, 0, 0);
@@ -120,10 +120,10 @@ nav span .buttoncover {
   opacity: 70%;
 }
 .itemcontainer summary {
-color: white;
+  color: white;
 }
 .itemcontainer div .imagecontent {
-height: auto;
-width: 24%;
-display: inline;
+  height: auto;
+  width: 24%;
+  display: inline;
 }
