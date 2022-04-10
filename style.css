@@ -17,7 +17,7 @@ nav {
   font-weight: 900;
   display: flex;
   justify-content: space-between;
-  min-width: auto;
+  min-width: 500px;
   margin: 3px auto;
 }
 
@@ -70,8 +70,4 @@ nav span .buttoncover {
 }
 #slider figure img {
   height: 400px;
-}
-.images {
- height: 100px;
- width:200px;
 }
