@@ -17,7 +17,7 @@ nav{
     font-weight: 900;
     display: flex;
     justify-content: space-between;
-    min-width: 1000px;
+    min-width: auto;
     margin: 3px auto;
 }
 
