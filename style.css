@@ -1,75 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@700&family=Ubuntu:wght@300&display=swap');
+
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Cabin', sans-serif;
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Consolas',sans-serif;
+  font-family: 'Cabin', sans-serif;
   color: rgb(24, 23, 23);
 }
-html{
-    background-color:#24252a
+html {
+  background-color: #24252a
 }
-nav{
-    
-    border: none;
-    background-color: #0c458f;
-    border-radius: 20px;
-    margin: 3px;
-    font-weight: 900;
-    display: flex;
-    justify-content: space-between;
-    min-width: 1000px;
-    margin: 3px auto;
+nav {
+
+  border: none;
+  background-color: #0c458f;
+  border-radius: 20px;
+  margin: 8px 8px;
+  font-weight: 1000;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
 }
 
-.left img,.nav_links ,.nav_links li,.SignUp{
-    display:inline-block;
-    font-size: 25px;
-    vertical-align: middle;
+.left img,.nav_links ,.nav_links li,.SignUp {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
 }
-.left{
-    color: rgb(0, 0, 0);
-    font-size:35px;
+.left {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
 }
 
-.nav_links li a{
-    text-decoration: none;
-    display:inline-block;
-    padding:25% 10px 0px 0px;
+.nav_links li a {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+  padding: 25% 10px 0px 0px;
 
 }
-.nav_links li a:hover{
-    color: #0c0d0e;
+.nav_links li a:hover {
+  color: #0c0d0e;
 
 }
 .SignUp {
 
-    cursor: pointer;
-    border-radius:15px;
-    font-weight: 900;
-    color:black;
-    border:none;
-    width:4em;
-    background-color:#4171af;
+  cursor: pointer;
+  font-size: 23px;
+  border-radius: 15px;
+  font-weight: 400;
+  color: black;
+  border: 1px solid blue;
+  width: 3.2em;
+  background-color: #4171af;
 }
-.SignUp:hover{
-    background-color: antiquewhite;
+.SignUp:active {
+  background-color: antiquewhite;
 }
-nav span{
-    box-sizing: border-box;
-    width:33.33%;
-    text-align: center;
+nav span {
+  box-sizing: border-box;
+  width: 33.33%;
+  text-align: center;
 
 }
-nav span .buttoncover{
-    display:inline-block;
-    padding:5% 0px 0px 0px;
+nav span .buttoncover {
+  display: inline-block;
+  padding: 5% 0px 0px 0px;
 }
 
-#slider{
-    overflow: hidden;
-}
-#slider figure img{
-    height: 400px;
-}
+.slider {}
 
-
+.slider figure {
+  position: relative;
+  text-align: center;
+  padding: 5px 10px 10px 10px;
+  animation: 20s slider 1;
+}
+.slider figure img {
+  opacity: 40%;
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px auto;
+}
+.slider figure img:active {
+  opacity: 20%;
+}
+.slider figure span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  opacity: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.itemcontainer {
+  border: none;
+  font-size: 20px;
+  display: inline-block;
+  width: 98%;
+  padding: 0px 10px 5px 10px;
+  margin: 10px auto;
+  margin-left: 1%;
+  border-radius: 10px;
+  background-color: #0c458f;
+}
+.itemcontainer:active {
+  opacity: 70%;
+}
+}
+.itemcontainer summary {
+color: white;
+}
+.itemcontainer div .imagecontent {
+height: auto;
+width: 24%;
+display: inline;
+}
