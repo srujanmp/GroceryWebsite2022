@@ -19,6 +19,7 @@ nav {
   justify-content: space-between;
   min-width: 500px;
   margin: 3px auto;
+  height: 100px;
 }
 
 .left img,.nav_links ,.nav_links li,.SignUp {
