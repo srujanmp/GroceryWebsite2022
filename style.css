@@ -71,6 +71,7 @@ nav span .buttoncover {
 #slider figure img {
   height: 400px;
 }
-div figuru img {
-  width: 100px;
+.images {
+ height: 100px;
+ width:200px;
 }
