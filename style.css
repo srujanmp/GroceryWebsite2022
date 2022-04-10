@@ -32,6 +32,9 @@ nav {
   font-size: 25px;
   vertical-align: middle;
 }
+.left img {
+  height:100px;
+}
 .left {
   color: rgb(0, 0, 0);
   font-size: 25px;
@@ -115,7 +118,6 @@ nav span .buttoncover {
 }
 .itemcontainer:active {
   opacity: 70%;
-}
 }
 .itemcontainer summary {
 color: white;
