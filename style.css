@@ -5,69 +5,72 @@
   font-family: 'Consolas',sans-serif;
   color: rgb(24, 23, 23);
 }
-html{
-    background-color:#24252a
+html {
+  background-color: #24252a
 }
-nav{
-    
-    border: none;
-    background-color: #0c458f;
-    border-radius: 20px;
-    margin: 3px;
-    font-weight: 900;
-    display: flex;
-    justify-content: space-between;
-    min-width: auto;
-    margin: 3px auto;
+nav {
+
+  border: none;
+  background-color: #0c458f;
+  border-radius: 20px;
+  margin: 3px;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  min-width: auto;
+  margin: 3px auto;
 }
 
-.left img,.nav_links ,.nav_links li,.SignUp{
-    display:inline-block;
-    font-size: 25px;
-    vertical-align: middle;
+.left img,.nav_links ,.nav_links li,.SignUp {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
 }
-.left{
-    color: rgb(0, 0, 0);
-    font-size:35px;
+.left {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
 }
 
-.nav_links li a{
-    text-decoration: none;
-    display:inline-block;
-    padding:25% 10px 0px 0px;
+.nav_links li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 25% 10px 0px 0px;
 
 }
-.nav_links li a:hover{
-    color: #0c0d0e;
+.nav_links li a:hover {
+  color: #0c0d0e;
 
 }
 .SignUp {
 
-    cursor: pointer;
-    border-radius:15px;
-    font-weight: 900;
-    color:black;
-    border:none;
-    width:4em;
-    background-color:#4171af;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 900;
+  color: black;
+  border: none;
+  width: 4em;
+  background-color: #4171af;
 }
-.SignUp:hover{
-    background-color: antiquewhite;
+.SignUp:hover {
+  background-color: antiquewhite;
 }
-nav span{
-    box-sizing: border-box;
-    width:33.33%;
-    text-align: center;
+nav span {
+  box-sizing: border-box;
+  width: 33.33%;
+  text-align: center;
 
 }
-nav span .buttoncover{
-    display:inline-block;
-    padding:5% 0px 0px 0px;
+nav span .buttoncover {
+  display: inline-block;
+  padding: 5% 0px 0px 0px;
 }
 
-#slider{
-    overflow: hidden;
+#slider {
+  overflow: hidden;
 }
-#slider figure img{
-    height: 400px;
+#slider figure img {
+  height: 400px;
+}
+div figuru img {
+  width: 100px;
 }
